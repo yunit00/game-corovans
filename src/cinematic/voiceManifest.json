@@ -1,0 +1,30 @@
+{
+  "hello": {
+    "src": "/assets/audio/voice/intro/hello.mp3",
+    "durationSec": 5.02
+  },
+  "village": {
+    "src": "/assets/audio/voice/intro/village.mp3",
+    "durationSec": 6.3
+  },
+  "raid": {
+    "src": "/assets/audio/voice/intro/raid.mp3",
+    "durationSec": 4.83
+  },
+  "caravan": {
+    "src": "/assets/audio/voice/intro/caravan.mp3",
+    "durationSec": 5.98
+  },
+  "trees": {
+    "src": "/assets/audio/voice/intro/trees.mp3",
+    "durationSec": 6.77
+  },
+  "villain": {
+    "src": "/assets/audio/voice/intro/villain.mp3",
+    "durationSec": 5.62
+  },
+  "wish": {
+    "src": "/assets/audio/voice/intro/wish.mp3",
+    "durationSec": 4.31
+  }
+}

@@ -1,0 +1,36 @@
+// Маппинг логических состояний персонажа → regex имён клипов в GLB.
+// Имена сняты с реального KayKit Adventurers Knight.glb (76 клипов).
+export const animClipMap = {
+  idle: /^Idle$/,
+  idleUnarmed: /^Unarmed_Idle$/,
+  walk: /^Walking_A$/,
+  walkBack: /^Walking_Backwards$/,
+  run: /^Running_A$/,
+  strafeLeft: /^Running_Strafe_Left$/,
+  strafeRight: /^Running_Strafe_Right$/,
+  jumpStart: /^Jump_Start$/,
+  jumpIdle: /^Jump_Idle$/,
+  jumpLand: /^Jump_Land$/,
+  attackMelee1: /^1H_Melee_Attack_Slice_Diagonal$/,
+  attackMelee2: /^1H_Melee_Attack_Slice_Horizontal$/,
+  attackMelee3: /^1H_Melee_Attack_Chop$/,
+  attackStab: /^1H_Melee_Attack_Stab$/,
+  attackUnarmed: /^Unarmed_Melee_Attack_Punch_A$/,
+  aimRanged: /^2H_Ranged_Aiming$/,
+  shootRanged: /^2H_Ranged_Shoot$/,
+  reloadRanged: /^2H_Ranged_Reload$/,
+  block: /^Blocking$/,
+  hit: /^Hit_A$/,
+  hitB: /^Hit_B$/,
+  death: /^Death_A$/,
+  deathB: /^Death_B$/,
+  dodgeBack: /^Dodge_Backward$/,
+  interact: /^Interact$/,
+  pickup: /^PickUp$/,
+  useItem: /^Use_Item$/,
+  cheer: /^Cheer$/,
+  sitIdle: /^Sit_Floor_Idle$/,
+  spellcast: /^Spellcast_Shoot$/,
+} as const;
+
+export type AnimState = keyof typeof animClipMap;

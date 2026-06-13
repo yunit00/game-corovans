@@ -1,0 +1,1799 @@
+{
+ "generated": true,
+ "entries": [
+  {
+   "key": "char:knight",
+   "path": "assets/characters/knight.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "char:barbarian",
+   "path": "assets/characters/barbarian.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "char:mage",
+   "path": "assets/characters/mage.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "char:rogue",
+   "path": "assets/characters/rogue.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "char:rogue_hooded",
+   "path": "assets/characters/rogue_hooded.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "char:skeleton_warrior",
+   "path": "assets/characters/skeleton_warrior.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "char:skeleton_mage",
+   "path": "assets/characters/skeleton_mage.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "char:skeleton_rogue",
+   "path": "assets/characters/skeleton_rogue.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "char:skeleton_minion",
+   "path": "assets/characters/skeleton_minion.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "weapon:sword_1handed",
+   "path": "assets/weapons/sword_1handed.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "weapon:crossbow_2handed",
+   "path": "assets/weapons/crossbow_2handed.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/arrow",
+   "path": "assets/weapons/arrow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/dagger",
+   "path": "assets/weapons/dagger.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/quiver",
+   "path": "assets/weapons/quiver.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/axe_1handed",
+   "path": "assets/weapons/axe_1handed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/axe_2handed",
+   "path": "assets/weapons/axe_2handed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/arrow_bundle",
+   "path": "assets/weapons/arrow_bundle.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/shield_round",
+   "path": "assets/weapons/shield_round.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/shield_spikes",
+   "path": "assets/weapons/shield_spikes.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/shield_square",
+   "path": "assets/weapons/shield_square.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/sword_2handed",
+   "path": "assets/weapons/sword_2handed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapons:misc/crossbow_1handed",
+   "path": "assets/weapons/crossbow_1handed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "prop:chest",
+   "path": "assets/props/chest.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "prop:chest_gold",
+   "path": "assets/props/chest_gold.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "props:misc/key",
+   "path": "assets/props/key.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/coin",
+   "path": "assets/props/coin.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/torch",
+   "path": "assets/props/torch.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/keyring",
+   "path": "assets/props/keyring.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/torch_lit",
+   "path": "assets/props/torch_lit.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/table_small",
+   "path": "assets/props/table_small.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/barrel_large",
+   "path": "assets/props/barrel_large.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/barrel_small",
+   "path": "assets/props/barrel_small.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/bottle_a_brown",
+   "path": "assets/props/bottle_a_brown.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/bottle_a_green",
+   "path": "assets/props/bottle_a_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/bottle_b_brown",
+   "path": "assets/props/bottle_b_brown.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/bottle_b_green",
+   "path": "assets/props/bottle_b_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/bottle_c_brown",
+   "path": "assets/props/bottle_c_brown.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/bottle_c_green",
+   "path": "assets/props/bottle_c_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/crates_stacked",
+   "path": "assets/props/crates_stacked.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/coin_stack_large",
+   "path": "assets/props/coin_stack_large.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/coin_stack_small",
+   "path": "assets/props/coin_stack_small.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "props:misc/coin_stack_medium",
+   "path": "assets/props/coin_stack_medium.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/sack",
+   "path": "assets/world/hexagon/sack.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/tent",
+   "path": "assets/world/hexagon/tent.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/flag_red",
+   "path": "assets/world/hexagon/flag_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/flag_blue",
+   "path": "assets/world/hexagon/flag_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/flag_green",
+   "path": "assets/world/hexagon/flag_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/weaponrack",
+   "path": "assets/world/hexagon/weaponrack.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/flag_yellow",
+   "path": "assets/world/hexagon/flag_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/wheelbarrow",
+   "path": "assets/world/hexagon/wheelbarrow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_dirt",
+   "path": "assets/world/hexagon/building_dirt.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_mine_red",
+   "path": "assets/world/hexagon/building_mine_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_well_red",
+   "path": "assets/world/hexagon/building_well_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/rock_single_a",
+   "path": "assets/world/hexagon/rock_single_a.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/rock_single_b",
+   "path": "assets/world/hexagon/rock_single_b.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/rock_single_c",
+   "path": "assets/world/hexagon/rock_single_c.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/rock_single_d",
+   "path": "assets/world/hexagon/rock_single_d.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/rock_single_e",
+   "path": "assets/world/hexagon/rock_single_e.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/tree_single_a",
+   "path": "assets/world/hexagon/tree_single_a.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/tree_single_b",
+   "path": "assets/world/hexagon/tree_single_b.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/trees_a_large",
+   "path": "assets/world/hexagon/trees_a_large.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/trees_a_small",
+   "path": "assets/world/hexagon/trees_a_small.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/trees_b_large",
+   "path": "assets/world/hexagon/trees_b_large.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/trees_b_small",
+   "path": "assets/world/hexagon/trees_b_small.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_grain",
+   "path": "assets/world/hexagon/building_grain.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/trees_a_medium",
+   "path": "assets/world/hexagon/trees_a_medium.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/trees_b_medium",
+   "path": "assets/world/hexagon/trees_b_medium.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_mine_blue",
+   "path": "assets/world/hexagon/building_mine_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_well_blue",
+   "path": "assets/world/hexagon/building_well_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_castle_red",
+   "path": "assets/world/hexagon/building_castle_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_church_red",
+   "path": "assets/world/hexagon/building_church_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_home_a_red",
+   "path": "assets/world/hexagon/building_home_a_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_home_b_red",
+   "path": "assets/world/hexagon/building_home_b_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_market_red",
+   "path": "assets/world/hexagon/building_market_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tavern_red",
+   "path": "assets/world/hexagon/building_tavern_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_stage_a",
+   "path": "assets/world/hexagon/building_stage_a.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_stage_b",
+   "path": "assets/world/hexagon/building_stage_b.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_stage_c",
+   "path": "assets/world/hexagon/building_stage_c.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_a_red",
+   "path": "assets/world/hexagon/building_tower_a_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_b_red",
+   "path": "assets/world/hexagon/building_tower_b_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_castle_blue",
+   "path": "assets/world/hexagon/building_castle_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_church_blue",
+   "path": "assets/world/hexagon/building_church_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_home_a_blue",
+   "path": "assets/world/hexagon/building_home_a_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_home_b_blue",
+   "path": "assets/world/hexagon/building_home_b_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_market_blue",
+   "path": "assets/world/hexagon/building_market_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tavern_blue",
+   "path": "assets/world/hexagon/building_tavern_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_mine_green",
+   "path": "assets/world/hexagon/building_mine_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_well_green",
+   "path": "assets/world/hexagon/building_well_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_bridge_a",
+   "path": "assets/world/hexagon/building_bridge_a.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_bridge_b",
+   "path": "assets/world/hexagon/building_bridge_b.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_barracks_red",
+   "path": "assets/world/hexagon/building_barracks_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_windmill_red",
+   "path": "assets/world/hexagon/building_windmill_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_a_blue",
+   "path": "assets/world/hexagon/building_tower_a_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_b_blue",
+   "path": "assets/world/hexagon/building_tower_b_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_destroyed",
+   "path": "assets/world/hexagon/building_destroyed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_watermill_red",
+   "path": "assets/world/hexagon/building_watermill_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_barracks_blue",
+   "path": "assets/world/hexagon/building_barracks_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_windmill_blue",
+   "path": "assets/world/hexagon/building_windmill_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_castle_green",
+   "path": "assets/world/hexagon/building_castle_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_church_green",
+   "path": "assets/world/hexagon/building_church_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_home_a_green",
+   "path": "assets/world/hexagon/building_home_a_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_home_b_green",
+   "path": "assets/world/hexagon/building_home_b_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_market_green",
+   "path": "assets/world/hexagon/building_market_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tavern_green",
+   "path": "assets/world/hexagon/building_tavern_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/fence_wood_straight",
+   "path": "assets/world/hexagon/fence_wood_straight.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_blacksmith_red",
+   "path": "assets/world/hexagon/building_blacksmith_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_lumbermill_red",
+   "path": "assets/world/hexagon/building_lumbermill_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_base_red",
+   "path": "assets/world/hexagon/building_tower_base_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_mine_yellow",
+   "path": "assets/world/hexagon/building_mine_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_well_yellow",
+   "path": "assets/world/hexagon/building_well_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_watermill_blue",
+   "path": "assets/world/hexagon/building_watermill_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_a_green",
+   "path": "assets/world/hexagon/building_tower_a_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_b_green",
+   "path": "assets/world/hexagon/building_tower_b_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_scaffolding",
+   "path": "assets/world/hexagon/building_scaffolding.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/fence_stone_straight",
+   "path": "assets/world/hexagon/fence_stone_straight.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_blacksmith_blue",
+   "path": "assets/world/hexagon/building_blacksmith_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_lumbermill_blue",
+   "path": "assets/world/hexagon/building_lumbermill_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_base_blue",
+   "path": "assets/world/hexagon/building_tower_base_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_barracks_green",
+   "path": "assets/world/hexagon/building_barracks_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_windmill_green",
+   "path": "assets/world/hexagon/building_windmill_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_archeryrange_red",
+   "path": "assets/world/hexagon/building_archeryrange_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_castle_yellow",
+   "path": "assets/world/hexagon/building_castle_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_church_yellow",
+   "path": "assets/world/hexagon/building_church_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_home_a_yellow",
+   "path": "assets/world/hexagon/building_home_a_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_home_b_yellow",
+   "path": "assets/world/hexagon/building_home_b_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_market_yellow",
+   "path": "assets/world/hexagon/building_market_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tavern_yellow",
+   "path": "assets/world/hexagon/building_tavern_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_watermill_green",
+   "path": "assets/world/hexagon/building_watermill_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_a_yellow",
+   "path": "assets/world/hexagon/building_tower_a_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_b_yellow",
+   "path": "assets/world/hexagon/building_tower_b_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_archeryrange_blue",
+   "path": "assets/world/hexagon/building_archeryrange_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_blacksmith_green",
+   "path": "assets/world/hexagon/building_blacksmith_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_lumbermill_green",
+   "path": "assets/world/hexagon/building_lumbermill_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_base_green",
+   "path": "assets/world/hexagon/building_tower_base_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_catapult_red",
+   "path": "assets/world/hexagon/building_tower_catapult_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_barracks_yellow",
+   "path": "assets/world/hexagon/building_barracks_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_windmill_yellow",
+   "path": "assets/world/hexagon/building_windmill_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/fence_wood_straight_gate",
+   "path": "assets/world/hexagon/fence_wood_straight_gate.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_watermill_yellow",
+   "path": "assets/world/hexagon/building_watermill_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_catapult_blue",
+   "path": "assets/world/hexagon/building_tower_catapult_blue.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_archeryrange_green",
+   "path": "assets/world/hexagon/building_archeryrange_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/fence_stone_straight_gate",
+   "path": "assets/world/hexagon/fence_stone_straight_gate.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_blacksmith_yellow",
+   "path": "assets/world/hexagon/building_blacksmith_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_lumbermill_yellow",
+   "path": "assets/world/hexagon/building_lumbermill_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_base_yellow",
+   "path": "assets/world/hexagon/building_tower_base_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_catapult_green",
+   "path": "assets/world/hexagon/building_tower_catapult_green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_archeryrange_yellow",
+   "path": "assets/world/hexagon/building_archeryrange_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:hexagon/building_tower_catapult_yellow",
+   "path": "assets/world/hexagon/building_tower_catapult_yellow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:home_a",
+   "path": "assets/world/hexagon/building_home_A.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "world:nature/log",
+   "path": "assets/world/nature/log.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_oak",
+   "path": "assets/world/nature/tree_oak.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/log_large",
+   "path": "assets/world/nature/log_large.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/log_stack",
+   "path": "assets/world/nature/log_stack.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/stump_old",
+   "path": "assets/world/nature/stump_old.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/plant_bush",
+   "path": "assets/world/nature/plant_bush.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_largea",
+   "path": "assets/world/nature/rock_largea.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_largeb",
+   "path": "assets/world/nature/rock_largeb.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_largec",
+   "path": "assets/world/nature/rock_largec.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_larged",
+   "path": "assets/world/nature/rock_larged.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_largee",
+   "path": "assets/world/nature/rock_largee.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_largef",
+   "path": "assets/world/nature/rock_largef.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smalla",
+   "path": "assets/world/nature/rock_smalla.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smallb",
+   "path": "assets/world/nature/rock_smallb.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smallc",
+   "path": "assets/world/nature/rock_smallc.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smalld",
+   "path": "assets/world/nature/rock_smalld.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smalle",
+   "path": "assets/world/nature/rock_smalle.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smallf",
+   "path": "assets/world/nature/rock_smallf.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smallg",
+   "path": "assets/world/nature/rock_smallg.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smallh",
+   "path": "assets/world/nature/rock_smallh.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smalli",
+   "path": "assets/world/nature/rock_smalli.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/stump_round",
+   "path": "assets/world/nature/stump_round.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_simple",
+   "path": "assets/world/nature/tree_simple.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/mushroom_red",
+   "path": "assets/world/nature/mushroom_red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/stump_square",
+   "path": "assets/world/nature/stump_square.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_default",
+   "path": "assets/world/nature/tree_default.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/stump_oldtall",
+   "path": "assets/world/nature/stump_oldtall.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_oak_dark",
+   "path": "assets/world/nature/tree_oak_dark.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_oak_fall",
+   "path": "assets/world/nature/tree_oak_fall.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/log_stacklarge",
+   "path": "assets/world/nature/log_stacklarge.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smalltopa",
+   "path": "assets/world/nature/rock_smalltopa.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smalltopb",
+   "path": "assets/world/nature/rock_smalltopb.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinetalla",
+   "path": "assets/world/nature/tree_pinetalla.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinetallb",
+   "path": "assets/world/nature/tree_pinetallb.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinetallc",
+   "path": "assets/world/nature/tree_pinetallc.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinetalld",
+   "path": "assets/world/nature/tree_pinetalld.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/plant_bushlarge",
+   "path": "assets/world/nature/plant_bushlarge.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/plant_bushsmall",
+   "path": "assets/world/nature/plant_bushsmall.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smallflata",
+   "path": "assets/world/nature/rock_smallflata.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smallflatb",
+   "path": "assets/world/nature/rock_smallflatb.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/rock_smallflatc",
+   "path": "assets/world/nature/rock_smallflatc.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinerounda",
+   "path": "assets/world/nature/tree_pinerounda.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pineroundb",
+   "path": "assets/world/nature/tree_pineroundb.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pineroundc",
+   "path": "assets/world/nature/tree_pineroundc.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pineroundd",
+   "path": "assets/world/nature/tree_pineroundd.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinerounde",
+   "path": "assets/world/nature/tree_pinerounde.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pineroundf",
+   "path": "assets/world/nature/tree_pineroundf.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinesmalla",
+   "path": "assets/world/nature/tree_pinesmalla.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinesmallb",
+   "path": "assets/world/nature/tree_pinesmallb.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinesmallc",
+   "path": "assets/world/nature/tree_pinesmallc.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinesmalld",
+   "path": "assets/world/nature/tree_pinesmalld.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_block_rock",
+   "path": "assets/world/nature/cliff_block_rock.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/mushroom_redtall",
+   "path": "assets/world/nature/mushroom_redtall.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinegrounda",
+   "path": "assets/world/nature/tree_pinegrounda.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinegroundb",
+   "path": "assets/world/nature/tree_pinegroundb.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_simple_dark",
+   "path": "assets/world/nature/tree_simple_dark.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_simple_fall",
+   "path": "assets/world/nature/tree_simple_fall.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_block_stone",
+   "path": "assets/world/nature/cliff_block_stone.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/mushroom_redgroup",
+   "path": "assets/world/nature/mushroom_redgroup.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_default_dark",
+   "path": "assets/world/nature/tree_default_dark.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_default_fall",
+   "path": "assets/world/nature/tree_default_fall.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinedefaulta",
+   "path": "assets/world/nature/tree_pinedefaulta.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinedefaultb",
+   "path": "assets/world/nature/tree_pinedefaultb.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/plant_bushdetailed",
+   "path": "assets/world/nature/plant_bushdetailed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/plant_bushtriangle",
+   "path": "assets/world/nature/plant_bushtriangle.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/stump_rounddetailed",
+   "path": "assets/world/nature/stump_rounddetailed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockcave_rock",
+   "path": "assets/world/nature/cliff_blockcave_rock.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockhalf_rock",
+   "path": "assets/world/nature/cliff_blockhalf_rock.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/stump_squaredetailed",
+   "path": "assets/world/nature/stump_squaredetailed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockcave_stone",
+   "path": "assets/world/nature/cliff_blockcave_stone.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockhalf_stone",
+   "path": "assets/world/nature/cliff_blockhalf_stone.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockslope_rock",
+   "path": "assets/world/nature/cliff_blockslope_rock.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockslope_stone",
+   "path": "assets/world/nature/cliff_blockslope_stone.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockquarter_rock",
+   "path": "assets/world/nature/cliff_blockquarter_rock.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/plant_bushlargetriangle",
+   "path": "assets/world/nature/plant_bushlargetriangle.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinetalla_detailed",
+   "path": "assets/world/nature/tree_pinetalla_detailed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinetallb_detailed",
+   "path": "assets/world/nature/tree_pinetallb_detailed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinetallc_detailed",
+   "path": "assets/world/nature/tree_pinetallc_detailed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/tree_pinetalld_detailed",
+   "path": "assets/world/nature/tree_pinetalld_detailed.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockdiagonal_rock",
+   "path": "assets/world/nature/cliff_blockdiagonal_rock.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockquarter_stone",
+   "path": "assets/world/nature/cliff_blockquarter_stone.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/stump_squaredetailedwide",
+   "path": "assets/world/nature/stump_squaredetailedwide.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockdiagonal_stone",
+   "path": "assets/world/nature/cliff_blockdiagonal_stone.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockslopewalls_rock",
+   "path": "assets/world/nature/cliff_blockslopewalls_rock.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockslopewalls_stone",
+   "path": "assets/world/nature/cliff_blockslopewalls_stone.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockslopehalfwalls_rock",
+   "path": "assets/world/nature/cliff_blockslopehalfwalls_rock.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:nature/cliff_blockslopehalfwalls_stone",
+   "path": "assets/world/nature/cliff_blockslopehalfwalls_stone.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/cart",
+   "path": "assets/world/town/cart.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/poles",
+   "path": "assets/world/town/poles.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/stall",
+   "path": "assets/world/town/stall.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/wheel",
+   "path": "assets/world/town/wheel.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/planks",
+   "path": "assets/world/town/planks.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/lantern",
+   "path": "assets/world/town/lantern.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/overhang",
+   "path": "assets/world/town/overhang.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/cart-high",
+   "path": "assets/world/town/cart-high.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/stall-red",
+   "path": "assets/world/town/stall-red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/banner-red",
+   "path": "assets/world/town/banner-red.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/planks-half",
+   "path": "assets/world/town/planks-half.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/stall-bench",
+   "path": "assets/world/town/stall-bench.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/stall-green",
+   "path": "assets/world/town/stall-green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/stall-stool",
+   "path": "assets/world/town/stall-stool.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/banner-green",
+   "path": "assets/world/town/banner-green.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/fountain-edge",
+   "path": "assets/world/town/fountain-edge.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/fountain-round",
+   "path": "assets/world/town/fountain-round.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/planks-opening",
+   "path": "assets/world/town/planks-opening.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/fountain-center",
+   "path": "assets/world/town/fountain-center.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/fountain-corner",
+   "path": "assets/world/town/fountain-corner.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/fountain-curved",
+   "path": "assets/world/town/fountain-curved.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/fountain-square",
+   "path": "assets/world/town/fountain-square.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/poles-horizontal",
+   "path": "assets/world/town/poles-horizontal.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/fountain-corner-inner",
+   "path": "assets/world/town/fountain-corner-inner.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/fountain-round-detail",
+   "path": "assets/world/town/fountain-round-detail.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/fountain-square-detail",
+   "path": "assets/world/town/fountain-square-detail.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:town/fountain-corner-inner-square",
+   "path": "assets/world/town/fountain-corner-inner-square.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/box",
+   "path": "assets/world/survival/box.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/tent",
+   "path": "assets/world/survival/tent.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/barrel",
+   "path": "assets/world/survival/barrel.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/box-open",
+   "path": "assets/world/survival/box-open.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/box-large",
+   "path": "assets/world/survival/box-large.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/barrel-open",
+   "path": "assets/world/survival/barrel-open.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/tent-canvas",
+   "path": "assets/world/survival/tent-canvas.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/campfire-pit",
+   "path": "assets/world/survival/campfire-pit.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/resource-wood",
+   "path": "assets/world/survival/resource-wood.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/box-large-open",
+   "path": "assets/world/survival/box-large-open.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/campfire-stand",
+   "path": "assets/world/survival/campfire-stand.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/resource-stone",
+   "path": "assets/world/survival/resource-stone.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/resource-planks",
+   "path": "assets/world/survival/resource-planks.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/tent-canvas-half",
+   "path": "assets/world/survival/tent-canvas-half.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/resource-stone-large",
+   "path": "assets/world/survival/resource-stone-large.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:survival/campfire-fishing-stand",
+   "path": "assets/world/survival/campfire-fishing-stand.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "world:cart",
+   "path": "assets/world/cart.glb",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "animal:horse",
+   "path": "assets/animals/horse.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "animal:donkey",
+   "path": "assets/animals/donkey.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "animal:wolf",
+   "path": "assets/animals/wolf.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "animal:deer",
+   "path": "assets/animals/deer.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "animal:stag",
+   "path": "assets/animals/stag.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "animal:fox",
+   "path": "assets/animals/fox.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "animal:cow",
+   "path": "assets/animals/cow.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "animal:bull",
+   "path": "assets/animals/bull.glb",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "weapon:bow",
+   "path": "assets/weapons/bow.glb",
+   "required": false,
+   "ok": false
+  },
+  {
+   "key": "hdri:sky",
+   "path": "assets/hdri/sky_day_2k.hdr",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "tex:grass_diff",
+   "path": "assets/textures/grass_diff_1k.jpg",
+   "required": true,
+   "ok": true
+  },
+  {
+   "key": "tex:grass_nor_gl",
+   "path": "assets/textures/grass_nor_gl_1k.jpg",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "tex:grass_rough",
+   "path": "assets/textures/grass_rough_1k.jpg",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "tex:dirt_diff",
+   "path": "assets/textures/dirt_diff_1k.jpg",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "tex:dirt_nor_gl",
+   "path": "assets/textures/dirt_nor_gl_1k.jpg",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "tex:dirt_rough",
+   "path": "assets/textures/dirt_rough_1k.jpg",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "tex:rock_diff",
+   "path": "assets/textures/rock_diff_1k.jpg",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "tex:rock_nor_gl",
+   "path": "assets/textures/rock_nor_gl_1k.jpg",
+   "required": false,
+   "ok": true
+  },
+  {
+   "key": "tex:rock_rough",
+   "path": "assets/textures/rock_rough_1k.jpg",
+   "required": false,
+   "ok": true
+  }
+ ]
+}
