@@ -1,8 +1,0 @@
-# Кэш-заголовки (резерв к netlify.toml).
-# Ассеты с хэшем в имени — кэшируем навсегда.
-/assets/*
-  Cache-Control: public, max-age=31536000, immutable
-
-# Точка входа — не кэшируем, чтобы новые сборки подхватывались сразу.
-/index.html
-  Cache-Control: public, max-age=0, must-revalidate
